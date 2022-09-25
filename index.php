@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title> Example</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Josefin+Sans&display=swap" rel="stylesheet">
+  </head>
+<body>
+<nav class="navbar navbar-expand-lg bg-dark">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">TEAM ALPHA</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="index.php">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Services</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Gallery</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<div id="demo" class="carousel slide" data-ride="carousel">
+  <ul class="carousel-indicators">
+    <li data-target="#demo" data-slide-to="0" class="active"></li>
+    <li data-target="#demo" data-slide-to="1"></li>
+    <li data-target="#demo" data-slide-to="2"></li>
+  </ul>
+  <div class="carousel-inner">
+  <div class="carousel-item active">
+      <img src="img\ban1.jpeg" alt="Bangalore" width="1100" height="500">
+      <div class="carousel-caption">
+        <h3>Bangalore</h3>
+        <p>We love the Beautiful Climate!</p>
+      </div>   
+    </div>
+    <div class="carousel-item">
+      <img src="img\rr1.jpg" alt="New Delhi" width="1100" height="500">
+      <div class="carousel-caption">
+        <h3>New Delhi</h3>
+        <p>We had such a great time in ND!</p>
+      </div>   
+    </div>
+    <div class="carousel-item">
+      <img src="img\rr3.jpg" alt="Varanasi" width="1100" height="500">
+      <div class="carousel-caption">
+        <h3>Varanasi</h3>
+        <p>Thank you, Varanasi!</p>
+      </div>   
+    </div>
+      </div>
+  <a class="carousel-control-prev" href="#demo" data-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </a>
+  <a class="carousel-control-next" href="#demo" data-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </a>
+</div>
+<section class="my-5">
+    <div class="py-5">
+        <h2 class="text-center">About Us</h2>
+    </div>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-6 col-md-6 col-12">
+          <img src="img/hh1.jpg" class="img-fluid aboutimg1">
+        </div>
+        <div class="col-lg-6 col-md-6 col-12">
+          <h2 class="display-4"> I am Team Alpha.</h2>
+          <p class="py-3"> This photography website includes great high-definition,pictures of the popular cities in India.The gallery comprises breathtaking views of various historical monuments,heritage rich sites.This site is user-friendly and provided a downdoad option to get the images.Hope you find this website helpful.
+          </p>
+         </div>
+
+      </div>
+    </div>
+</section>
+<section class="my-5">
+    <div class="py-5">
+        <h2 class="text-center">Our Services</h2>
+    </div>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-4 col-md-4 col-12">
+        <div class="card">
+        <img class="card-img-top aboutimg" src="img/p1.jpg" alt="Card image">
+         <div class="card-body">
+          <h4 class="card-title">Bangalore:)</h4>
+          <p class="card-text">Silicon City!.</p>
+          <a href="profile1.php" class="btn btn-primary">See Profile</a>
+          </div>
+        </div>
+        </div>
+        <div class="col-lg-4 col-md-4 col-12">
+        <div class="card">
+        <img class="card-img-top aboutimg" src="img/pp2.jpg" alt="Card image">
+         <div class="card-body">
+          <h4 class="card-title">Telangana:)</h4>
+          <p class="card-text">HighTech City!.</p>
+          <a href="profile2.php" class="btn btn-primary">See Profile</a>
+          </div>
+        </div>
+        </div>
+        <div class="col-lg-4 col-md-4 col-12">
+        <div class="card">
+        <img class="card-img-top aboutimg" src="img/pp3.jpg" alt="Card image">
+         <div class="card-body">
+          <h4 class="card-title">New Delhi:)</h4>
+          <p class="card-text">Capital City.</p>
+          <a href="profile3.php" class="btn btn-primary">See Profile</a>
+          </div>
+        </div>
+        </div>
+      </div>
+    </div>
+</section>
+
+<section class="my-5">
+    <div class="py-5">
+        <h2 class="text-center">Our Gallery</h2>
+    </div>
+    <div class="container-fluid">
+      <div class="row">
+        <div class="col-lg-4 col-md-4 col-12">
+          <img src="img/gg1.jpg" class="img-fluid aboutimg py-5">
+          <a href="img/gg1.jpg" download class="download-btn">Download</a>
+        </div>
+        <div class="col-lg-4 col-md-4 col-12">
+          <img src="img/gg2.jpg" class="img-fluid aboutimg py-5">
+          <a href="img/gg2.jpg" download class="download-btn">Download</a>
+        </div>
+        <div class="col-lg-4 col-md-4 col-12">
+          <img src="img/gg3.jpg" class="img-fluid aboutimg py-5">
+          <a href="img/gg3.jpg" download class="download-btn">Download</a>
+        </div>
+        <div class="col-lg-4 col-md-4 col-12">
+          <img src="img/gg4.jpg" class="img-fluid aboutimg py-5">
+          <a href="img/gg4.jpg" download class="download-btn">Download</a>
+        </div>
+        <div class="col-lg-4 col-md-4 col-12">
+          <img src="img/gg5.jpg" class="img-fluid aboutimg py-5">
+          <a href="img/gg5.jpg" download class="download-btn">Download</a>
+        </div>
+        <div class="col-lg-4 col-md-4 col-12">
+          <img src="img/gg6.jpg" class="img-fluid aboutimg py-5">
+          <a href="img/gg6.jpg" download class="download-btn">Download</a>
+        </div>
+        <div class="col-lg-4 col-md-4 col-12">
+          <img src="img/gg7.jpg" class="img-fluid aboutimg py-5">
+          <a href="img/gg7.jpg" download class="download-btn">Download</a>
+        </div>
+        <div class="col-lg-4 col-md-4 col-12">
+          <img src="img/gg8.jpg" class="img-fluid aboutimg py-5">
+          <a href="img/gg8.jpg" download class="download-btn">Download</a>
+        </div>
+        <div class="col-lg-4 col-md-4 col-12">
+          <img src="img/gg9.jpg" class="img-fluid aboutimg py-5">
+          <a href="img/gg9.jpg" download class="download-btn">Download</a> 
+        </div>
+      </div>
+    </div>
+
+</section>
+
+<section class="my-5">
+    <div class="py-5">
+        <h2 class="text-center">Contact Us</h2>
+    </div>
+    <div class="w-50 m-auto">
+    <form action="userinfo.php" method="post">
+      <div class="form-group">
+        <label>Username</label>
+        <input type="text" name="user" autocomplete="off" class="form-control">
+      </div>
+      <div class="form-group">
+        <label>Email Id</label>
+        <input type="text" name="email" autocomplete="off" class="form-control">
+      </div>
+      <div class="form-group">
+        <label>Mobile </label>
+        <input type="text" name="mobile" autocomplete="off" class="form-control">
+      </div>
+      <div class="form-group">
+        <label>Comments</label>
+        <textarea class="form-control" name="comment"></textarea>
+      </div>
+      <button type="submit" class="btn btn-success">Submit</button>
+    </form>
+    </div>
+
+</section>
+
+
+<footer>
+  <p class="p-3 bg-dark text-white text-center">@teamalphaproduction</p>
+</footer>
+
+
+<script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
+
+</body>
+</html>
